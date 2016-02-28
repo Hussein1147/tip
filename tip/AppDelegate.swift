@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let image1: UIImage = UIImage(named: "tipUser")!
         let image2: UIImage = UIImage(named: "tip")!
         let image3: UIImage = UIImage(named: "tipBox")!
+        let image4: UIImage = UIImage(named: "plus_icon")!
         
         let item1: YALTabBarItem = YALTabBarItem.init(itemImage:image1, leftItemImage:image2
             , rightItemImage: image3)
@@ -31,6 +32,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.leftBarItems = [item1]
         tabBarController.rightBarItems = [item2,item3]
         
+        tabBarController.tabBarView.tabBarViewEdgeInsets = YALTabBarViewHDefaultEdgeInsets
+        tabBarController.tabBarView.tabBarItemsEdgeInsets = YALTabBarViewItemsDefaultEdgeInsets
+        tabBarController.tabBarView.offsetForExtraTabBarItems = YALForExtraTabBarItemsDefaultOffset
+        tabBarController.tabBarView.extraTabBarItemHeight = YALExtraTabBarItemsDefaultHeight;
+        tabBarController.centerButtonImage = image4
+
+        tabBarController.tabBarView.backgroundColor = UIColor(colorLiteralRed: 94.0/255.0, green: 91.0/255.0, blue: 149.0/255.0, alpha: 1)
+        tabBarController.tabBarView.tabBarColor = UIColor(colorLiteralRed: 72.0/255.0, green: 211.0/255.0, blue: 178.0/255.0, alpha: 1)
+        tabBarController.tabBarView.dotColor = UIColor(colorLiteralRed: 92.0/255.0, green: 91.0/255.0, blue: 149.0/255.0, alpha: 1)
         
         
         return true

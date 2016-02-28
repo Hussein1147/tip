@@ -11,10 +11,10 @@
 		5823EA1B1C8260F400E222E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA1A1C8260F400E222E9 /* ViewController.swift */; };
 		5823EA1E1C8260F400E222E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA1C1C8260F400E222E9 /* Main.storyboard */; };
 		5823EA211C8260F400E222E9 /* tip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA1F1C8260F400E222E9 /* tip.xcdatamodeld */; };
-		5823EA231C8260F400E222E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA221C8260F400E222E9 /* Assets.xcassets */; };
 		5823EA261C8260F400E222E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA241C8260F400E222E9 /* LaunchScreen.storyboard */; };
 		5823EA311C8260F400E222E9 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA301C8260F400E222E9 /* tipTests.swift */; };
 		5823EA3C1C8260F400E222E9 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA3B1C8260F400E222E9 /* tipUITests.swift */; };
+		5823EA4B1C8297AF00E222E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA4A1C8297AF00E222E9 /* Assets.xcassets */; };
 		9256953D38ABE46536999FE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6BE5AD3FD8B7B96211F18B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,6 @@
 		5823EA1A1C8260F400E222E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5823EA1D1C8260F400E222E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5823EA201C8260F400E222E9 /* tip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tip.xcdatamodel; sourceTree = "<group>"; };
-		5823EA221C8260F400E222E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5823EA251C8260F400E222E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5823EA271C8260F400E222E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5823EA2C1C8260F400E222E9 /* tipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		5823EA3B1C8260F400E222E9 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		5823EA3D1C8260F400E222E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5823EA491C82729A00E222E9 /* FoldingBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FoldingBar-Bridging-Header.h"; path = "../FoldingBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		5823EA4A1C8297AF00E222E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8075AA7F362751A008B39BCC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8AEB01AC19B5D960AEA7B52A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9F6BE5AD3FD8B7B96211F18B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +111,7 @@
 				5823EA181C8260F400E222E9 /* AppDelegate.swift */,
 				5823EA1A1C8260F400E222E9 /* ViewController.swift */,
 				5823EA1C1C8260F400E222E9 /* Main.storyboard */,
-				5823EA221C8260F400E222E9 /* Assets.xcassets */,
+				5823EA4A1C8297AF00E222E9 /* Assets.xcassets */,
 				5823EA241C8260F400E222E9 /* LaunchScreen.storyboard */,
 				5823EA271C8260F400E222E9 /* Info.plist */,
 				5823EA1F1C8260F400E222E9 /* tip.xcdatamodeld */,
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5823EA261C8260F400E222E9 /* LaunchScreen.storyboard in Resources */,
-				5823EA231C8260F400E222E9 /* Assets.xcassets in Resources */,
+				5823EA4B1C8297AF00E222E9 /* Assets.xcassets in Resources */,
 				5823EA1E1C8260F400E222E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +463,7 @@
 			baseConfigurationReference = 8075AA7F362751A008B39BCC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djibrilkeita.tip;
@@ -476,6 +477,7 @@
 			baseConfigurationReference = 8AEB01AC19B5D960AEA7B52A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djibrilkeita.tip;

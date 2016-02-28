@@ -15,3 +15,4 @@
 
 #import "YALFoldingTabBarController.h"
 #import "YALTabBarItem.h"
+#import "YALAnimatingTabBarConstants.h"

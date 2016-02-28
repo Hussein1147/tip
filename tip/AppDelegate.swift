@@ -16,7 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        
+        let tabBarController: YALFoldingTabBarController = (self.window?.rootViewController as? YALFoldingTabBarController)!
+        
+        let image1: UIImage = UIImage(named: "tipUser")!
+        let image2: UIImage = UIImage(named: "tip")!
+        let image3: UIImage = UIImage(named: "tipBox")!
+        
+        let item1: YALTabBarItem = YALTabBarItem.init(itemImage:image1, leftItemImage:image2
+            , rightItemImage: image3)
+        let item2: YALTabBarItem = YALTabBarItem.init(itemImage: image2, leftItemImage: nil, rightItemImage: nil)
+        let item3: YALTabBarItem = YALTabBarItem.init(itemImage: image3, leftItemImage: nil, rightItemImage: nil)
+        tabBarController.leftBarItems = [item1]
+        tabBarController.rightBarItems = [item2,item3]
+        
+        
+        
         return true
     }
 

@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import FoldingTabBar
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

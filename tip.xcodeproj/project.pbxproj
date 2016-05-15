@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5823EA191C8260F400E222E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA181C8260F400E222E9 /* AppDelegate.swift */; };
-		5823EA1B1C8260F400E222E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA1A1C8260F400E222E9 /* ViewController.swift */; };
+		5823EA1B1C8260F400E222E9 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA1A1C8260F400E222E9 /* UserViewController.swift */; };
 		5823EA1E1C8260F400E222E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA1C1C8260F400E222E9 /* Main.storyboard */; };
 		5823EA211C8260F400E222E9 /* tip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA1F1C8260F400E222E9 /* tip.xcdatamodeld */; };
 		5823EA261C8260F400E222E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA241C8260F400E222E9 /* LaunchScreen.storyboard */; };
 		5823EA311C8260F400E222E9 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA301C8260F400E222E9 /* tipTests.swift */; };
 		5823EA3C1C8260F400E222E9 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823EA3B1C8260F400E222E9 /* tipUITests.swift */; };
 		5823EA4B1C8297AF00E222E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823EA4A1C8297AF00E222E9 /* Assets.xcassets */; };
-		9256953D38ABE46536999FE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6BE5AD3FD8B7B96211F18B /* libPods.a */; };
+		58AAE5CA1C83920B00BB0362 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AAE5C91C83920B00BB0362 /* LogInViewController.swift */; };
+		58ABECD51C83B24B0060D286 /* tipClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ABECD41C83B24B0060D286 /* tipClient.swift */; };
+		58ABECD71C83C5F90060D286 /* tipList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58ABECD61C83C5F90060D286 /* tipList.plist */; };
+		58ABECD91C841C650060D286 /* tipBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ABECD81C841C650060D286 /* tipBar.swift */; };
+		7A330CDB4F23C1CCA3BADAFE /* Pods_tip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5D3707F920A6AF3734F1A /* Pods_tip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DFAC5D0CB8C6C5C1AD692AB /* Pods-tip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tip.release.xcconfig"; path = "Pods/Target Support Files/Pods-tip/Pods-tip.release.xcconfig"; sourceTree = "<group>"; };
+		580EBC371C83A719009E1705 /* tip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tip-Bridging-Header.h"; sourceTree = "<group>"; };
 		5823EA151C8260F400E222E9 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5823EA181C8260F400E222E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5823EA1A1C8260F400E222E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5823EA1A1C8260F400E222E9 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		5823EA1D1C8260F400E222E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5823EA201C8260F400E222E9 /* tip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tip.xcdatamodel; sourceTree = "<group>"; };
 		5823EA251C8260F400E222E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,11 +55,14 @@
 		5823EA371C8260F400E222E9 /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5823EA3B1C8260F400E222E9 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		5823EA3D1C8260F400E222E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5823EA491C82729A00E222E9 /* FoldingBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FoldingBar-Bridging-Header.h"; path = "../FoldingBar-Bridging-Header.h"; sourceTree = "<group>"; };
 		5823EA4A1C8297AF00E222E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8075AA7F362751A008B39BCC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8AEB01AC19B5D960AEA7B52A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		9F6BE5AD3FD8B7B96211F18B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AAE5C91C83920B00BB0362 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		58ABECD41C83B24B0060D286 /* tipClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipClient.swift; sourceTree = "<group>"; };
+		58ABECD61C83C5F90060D286 /* tipList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tipList.plist; sourceTree = SOURCE_ROOT; };
+		58ABECD81C841C650060D286 /* tipBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipBar.swift; sourceTree = "<group>"; };
+		60C5D3707F920A6AF3734F1A /* Pods_tip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495B4FFC389C12DD76F086D /* Pods-tip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tip/Pods-tip.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5064EB51B0F76027D737AB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9256953D38ABE46536999FE8 /* libPods.a in Frameworks */,
+				7A330CDB4F23C1CCA3BADAFE /* Pods_tip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +98,8 @@
 				5823EA2F1C8260F400E222E9 /* tipTests */,
 				5823EA3A1C8260F400E222E9 /* tipUITests */,
 				5823EA161C8260F400E222E9 /* Products */,
-				B60975B866A0AAD35F2538DF /* Pods */,
 				77A301EB774BE5AF76972A12 /* Frameworks */,
+				702F3E4C5DC2B1B1DB789814 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,14 +116,17 @@
 		5823EA171C8260F400E222E9 /* tip */ = {
 			isa = PBXGroup;
 			children = (
-				5823EA491C82729A00E222E9 /* FoldingBar-Bridging-Header.h */,
+				58ABECD61C83C5F90060D286 /* tipList.plist */,
+				58AAE5C81C8391D700BB0362 /* Models */,
+				58AAE5C61C8391C000BB0362 /* Client */,
+				58AAE5C51C83914800BB0362 /* ViewControllers */,
 				5823EA181C8260F400E222E9 /* AppDelegate.swift */,
-				5823EA1A1C8260F400E222E9 /* ViewController.swift */,
 				5823EA1C1C8260F400E222E9 /* Main.storyboard */,
 				5823EA4A1C8297AF00E222E9 /* Assets.xcassets */,
 				5823EA241C8260F400E222E9 /* LaunchScreen.storyboard */,
 				5823EA271C8260F400E222E9 /* Info.plist */,
 				5823EA1F1C8260F400E222E9 /* tip.xcdatamodeld */,
+				580EBC371C83A719009E1705 /* tip-Bridging-Header.h */,
 			);
 			path = tip;
 			sourceTree = "<group>";
@@ -137,21 +149,47 @@
 			path = tipUITests;
 			sourceTree = "<group>";
 		};
+		58AAE5C51C83914800BB0362 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5823EA1A1C8260F400E222E9 /* UserViewController.swift */,
+				58AAE5C91C83920B00BB0362 /* LogInViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58AAE5C61C8391C000BB0362 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				58ABECD41C83B24B0060D286 /* tipClient.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		58AAE5C81C8391D700BB0362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58ABECD81C841C650060D286 /* tipBar.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		702F3E4C5DC2B1B1DB789814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9495B4FFC389C12DD76F086D /* Pods-tip.debug.xcconfig */,
+				3DFAC5D0CB8C6C5C1AD692AB /* Pods-tip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		77A301EB774BE5AF76972A12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F6BE5AD3FD8B7B96211F18B /* libPods.a */,
+				FD5064EB51B0F76027D737AB /* Pods.framework */,
+				60C5D3707F920A6AF3734F1A /* Pods_tip.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B60975B866A0AAD35F2538DF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8075AA7F362751A008B39BCC /* Pods.debug.xcconfig */,
-				8AEB01AC19B5D960AEA7B52A /* Pods.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,11 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5823EA401C8260F400E222E9 /* Build configuration list for PBXNativeTarget "tip" */;
 			buildPhases = (
-				D31D2DDF22D97F3EC428DE88 /* Check Pods Manifest.lock */,
+				D2DCEF93ACD448A31DCDC186 /* 📦 Check Pods Manifest.lock */,
 				5823EA111C8260F400E222E9 /* Sources */,
 				5823EA121C8260F400E222E9 /* Frameworks */,
 				5823EA131C8260F400E222E9 /* Resources */,
-				FC6B40BB27DDDDB0E5971E47 /* Copy Pods Resources */,
+				664D8712B2DD125FE2AC177C /* 📦 Embed Pods Frameworks */,
+				DD76E1DF9A0362B8F3B5FA64 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58ABECD71C83C5F90060D286 /* tipList.plist in Resources */,
 				5823EA261C8260F400E222E9 /* LaunchScreen.storyboard in Resources */,
 				5823EA4B1C8297AF00E222E9 /* Assets.xcassets in Resources */,
 				5823EA1E1C8260F400E222E9 /* Main.storyboard in Resources */,
@@ -283,14 +323,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D31D2DDF22D97F3EC428DE88 /* Check Pods Manifest.lock */ = {
+		664D8712B2DD125FE2AC177C /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tip/Pods-tip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DCEF93ACD448A31DCDC186 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,19 +353,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FC6B40BB27DDDDB0E5971E47 /* Copy Pods Resources */ = {
+		DD76E1DF9A0362B8F3B5FA64 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tip/Pods-tip-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -320,9 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5823EA1B1C8260F400E222E9 /* ViewController.swift in Sources */,
+				58AAE5CA1C83920B00BB0362 /* LogInViewController.swift in Sources */,
+				58ABECD51C83B24B0060D286 /* tipClient.swift in Sources */,
+				5823EA1B1C8260F400E222E9 /* UserViewController.swift in Sources */,
 				5823EA191C8260F400E222E9 /* AppDelegate.swift in Sources */,
 				5823EA211C8260F400E222E9 /* tip.xcdatamodeld in Sources */,
+				58ABECD91C841C650060D286 /* tipBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +475,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -454,13 +513,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		5823EA411C8260F400E222E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8075AA7F362751A008B39BCC /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9495B4FFC389C12DD76F086D /* Pods-tip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -468,13 +528,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djibrilkeita.tip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FoldingBar-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./tip/tip-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		5823EA421C8260F400E222E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AEB01AC19B5D960AEA7B52A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 3DFAC5D0CB8C6C5C1AD692AB /* Pods-tip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -482,7 +542,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djibrilkeita.tip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FoldingBar-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./tip/tip-Bridging-Header.h";
 			};
 			name = Release;
 		};

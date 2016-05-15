@@ -1,0 +1,1219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A7624145F7D4E0E56511F9BEF32CC72E /* YALAnimatingTabBarConstants.m */; };
+		06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B8028F121273A7D3023E66745B8A50A7 /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE37EB69393C6CFAC11D8F67075AD93 /* Error.swift */; };
+		0A927F5EA61B6C07404397C96F1B7DFB /* FacebookStyleBarBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEE7FA759EB5AE2BF3EF55AD65F5F60 /* FacebookStyleBarBehaviorDefiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EF2124790E1C922CD3E6C3C82AC261 /* FoldingTabBar-dummy.m */; };
+		136CDF804C6DB1F93B6D97E9476DED81 /* BLKFlexibleHeightBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F828E6CD772C83A4009F143BC8073B /* BLKFlexibleHeightBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F33AE84F3EAE897A9CFC66FA5B998C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		150274FF78FFACD36305574BDC544B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		15A07BC13D7BE762CA9792B5C9F97595 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64647B7BEB7FA2115BC15CF139E5DB92 /* Timeline.swift */; };
+		183E20A67C4407B12C9D8C7EA98F4C61 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2D59916818A41E2960F65CAA1D1D77 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A9C7009D8209610E07710A17AF91DBB /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80D50B460628BEFB7C670734FCE89 /* JiroTextField.swift */; };
+		23357E73A039DE83A7F8F133099E0556 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281BA6C1471E58D7892A43788E3BAA3 /* YoshikoTextField.swift */; };
+		23AFA54C246EF4AC477D1319B5AEFD02 /* BLKFlexibleHeightBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B08F6A77B86100E6D66ADA88FE6936 /* BLKFlexibleHeightBar-dummy.m */; };
+		25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B38E38CFB9022F18512880419F90E6A2 /* YALTabBarItem.m */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F585FB39A7FA3DECE2343A95ACE0E6F /* Validation.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659869290BC3CE9F76E80FEF9F3AC3A6 /* NetworkReachabilityManager.swift */; };
+		375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82076CD5362779CBC75565DE537A8BA7 /* YALFoldingTabBarController.m */; };
+		3E1AB398DBDF11B9A2DB7B878F3B5E0C /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0BD06BA01ECF8BD3A7C06EDAAC9F7F /* IsaoTextField.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C36D2804819A09AF196229D32AC60 /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1162169359A97EAA03641ADB0D49223 /* Manager.swift */; };
+		4121C3C8ED8E4C322EE96541B2A7AF2A /* SquareCashStyleBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DFA17DB9D27B8564BB83E56C48B1FD /* SquareCashStyleBehaviorDefiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E0635BB441BD3BF5B37BC5E10B550 /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0A2A62035B9900A62126CCF69A9B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B642BA0422E4F31564A0C2E0389874 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6114EFD8CA634F1354E40E316C51F2 /* Download.swift */; };
+		5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98430CCDC3BA4D503C1B0DEE9C27400D /* YALFoldingTabBar.m */; };
+		5FFDA3142014F88B93ADB3FDCF3546C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		623D483F8F56568A87EB9DAAEEAEA99D /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870F9932B3E5A3E20E5EB8C6103B47F /* AkiraTextField.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680241C6BC3F15918E55A2E7A989A41 /* Response.swift */; };
+		64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFCB08BD68B49854ECB72BCFDB3B45 /* YALSpringAnimation.m */; };
+		658AE8E7414CD9F9217DA73D095A0FA4 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0E0D895C6BB5F9655C3433FCE0B0C /* UIView+BLKFlexibleHeightBarSubview.m */; };
+		7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6E94998C11E96B6330C1187B86D6ED /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E116BA3467C1A33F3D38F2D13F06DF /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C37BC984BD9ED77490A4B11C947097 /* MadokaTextField.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F1DCFFD8ED809A5090A12019990B4E /* ServerTrustPolicy.swift */; };
+		8332B33C2C52FD239C4AA643679D3352 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDA3E7192EB0F3BA37907217786953 /* YokoTextField.swift */; };
+		88677457A52C3438B230D215D8A1DCDF /* Pods-tip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552262FDFC5098EB8120C13EB4E31EF7 /* Pods-tip-dummy.m */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B9AF54429E9707E1683C276853078 /* Alamofire.swift */; };
+		90D9E156AF5D9F8F149D3A30F15AF014 /* BLKFlexibleHeightBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FA67FC70416202FAA27D65D274ECF5 /* BLKFlexibleHeightBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9E4803872E053978425D9A042BBB31 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8DB372606DBE97D87439814D16554 /* CAAnimation+YALTabBarViewAnimations.m */; };
+		997420AC5307AF62C8A6B1F7DA9F9654 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476EF24A2418FEC4C3842A93A2824691 /* TextFieldEffects-dummy.m */; };
+		9EA6B707658F73F48A164401C6854159 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B369DE6D7F4EDE0420BC95B5C8983D8 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */; };
+		9FD3A8D76E9CFB7B87BFF6CC38818355 /* BLKFlexibleHeightBarBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE8D5F99C7049151A1F7BD920A861D1 /* BLKFlexibleHeightBarBehaviorDefiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02814CA6C93B58F5DF0E77F0B7E1DDB /* SquareCashStyleBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0FD192CA6969C60DEAF9B2243759A /* SquareCashStyleBehaviorDefiner.m */; };
+		A660527F787EC1FBF7D921AF153C0E22 /* Pods-tip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 057ED6F3D3830CA75B1431F1D890C040 /* Pods-tip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BB547CAF5AE291911D06A52DA939 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774386B581CF80735D75572A38AAF85 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5ACE5C799E3CCA36841408324AE24E /* Stream.swift */; };
+		B03892E5193E2B4CA8AD189407D0A1DB /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3950DA952A13852489E4492E645BE /* MinoruTextField.swift */; };
+		B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5DBFD932E2D1C927257CCCBBE03B6E /* YALTabBarInteracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB0D7D8A7F735A495CB6D1AF84DC405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B0CC331B732B6359C9A1EDA01CB5 /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275CD86A124CFA47CC825436BECB29F /* ParameterEncoding.swift */; };
+		C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CAEB1D6C6720901C63F193913B0EEE /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C16574F51C9C6A17ADA7868D0236616B /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C351AAED65C08058A47640D53375FA40 /* UIView+BLKFlexibleHeightBarSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B36B832D11C378C61AB9739B4034CC3 /* UIView+BLKFlexibleHeightBarSubview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6407C408FDEAB642A87FB3182F20A52 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5A3DFDC20C9DC325A46A8D0FBA32CE /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBCC29D150904E47ACC418C559C62BA /* MultipartFormData.swift */; };
+		CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE5D83AA0FF8DECC6AE5B026786A396 /* FoldingTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC206997EED453E0EEBA757ED975CEFA /* BLKFlexibleHeightBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 983E93ACD9229036542A6D384D940421 /* BLKFlexibleHeightBar.m */; };
+		CF5C422E5C591F100805AFABB461D26D /* BLKFlexibleHeightBarBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = ED074FDDB117B6A0C690E62BEA845A22 /* BLKFlexibleHeightBarBehaviorDefiner.m */; };
+		CF75C9D058ED100B0A7F4C3CC8ED9B80 /* BLKDelegateSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 747EA0B09085D91969ACECDD530FC8F7 /* BLKDelegateSplitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D09BA74C541668C2C10AFACABF15F13D /* BLKDelegateSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3168BFA99F9F706E7E1E7C03C736D2 /* BLKDelegateSplitter.m */; };
+		D4338675C06ADF78F593A5AD0C72C697 /* FacebookStyleBarBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFCE03B0CBBCE08C520ADC25FD79473 /* FacebookStyleBarBehaviorDefiner.m */; };
+		D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54AE7C1C80E4C8F49C25576988795A /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C2D17104627BFFAEC35C2EA2192330 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5B55238C7BC9A9DCAADA70A323785 /* HoshiTextField.swift */; };
+		E796034CE7C4A9CA8589A4A5D61E39E7 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A28AA1398E123F6D32AAD0AFD524B9 /* KaedeTextField.swift */; };
+		EC24C06A5570926378885E7E5D228FB4 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E275954F645EE0C6F91A9D42B5A725A /* TextFieldsEffects.swift */; };
+		ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8D127829AC40F32A192B36591352F /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD34191AA27B811CE960D09B4D2DC2D /* Request.swift */; };
+		FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D57101409F8CBE5B700EED2A4940313 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		391424983FF2E13982E303D9FB3014D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		85760C277FCB8B3CB180625F48CB972A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE2093432BD60CBE944C755B6C7A8B4;
+			remoteInfo = TextFieldEffects;
+		};
+		B67AC37B041F88DCC4F54F1B148A547A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAA83A0B19E9AB585A6FFE3AAF1D304;
+			remoteInfo = BLKFlexibleHeightBar;
+		};
+		C671F898572F562AD3D9DE5E28FF2994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F52284BB73D7CF6A946B01B92E4E07F;
+			remoteInfo = FoldingTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049CDFC91D77D8A1573C1DDD37ACC308 /* FoldingTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FoldingTabBar.modulemap; sourceTree = "<group>"; };
+		057ED6F3D3830CA75B1431F1D890C040 /* Pods-tip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tip-umbrella.h"; sourceTree = "<group>"; };
+		0587BA1EB908D4EBF1C9EF04A30CE211 /* Pods-tip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tip-resources.sh"; sourceTree = "<group>"; };
+		05DFA17DB9D27B8564BB83E56C48B1FD /* SquareCashStyleBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SquareCashStyleBehaviorDefiner.h; path = BLKFlexibleHeightBar/SquareCashStyleBehaviorDefiner.h; sourceTree = "<group>"; };
+		0774386B581CF80735D75572A38AAF85 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B9E4803872E053978425D9A042BBB31 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		0BEE7FA759EB5AE2BF3EF55AD65F5F60 /* FacebookStyleBarBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacebookStyleBarBehaviorDefiner.h; path = BLKFlexibleHeightBar/FacebookStyleBarBehaviorDefiner.h; sourceTree = "<group>"; };
+		0E9B9AF54429E9707E1683C276853078 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		157C75BA61BA3F0D6977175544A15EA1 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		172BF95B4FF78B92C6B2D46625DC6C4C /* Pods-tip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tip-frameworks.sh"; sourceTree = "<group>"; };
+		22C411E89902CA8C92FC5B0630F745A4 /* Pods_tip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2AE81CC8DBAA816FCAE1D03C6445080C /* FoldingTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingTabBar.xcconfig; sourceTree = "<group>"; };
+		2D6FC95CE419DAD03B93ACA74C2AEC55 /* BLKFlexibleHeightBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLKFlexibleHeightBar.modulemap; sourceTree = "<group>"; };
+		2F08B0CC331B732B6359C9A1EDA01CB5 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		2FD34191AA27B811CE960D09B4D2DC2D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		30F1DCFFD8ED809A5090A12019990B4E /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		385F60CF8026C1ADDCBDB823C3F3B8C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBCC29D150904E47ACC418C559C62BA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3F87A2EF5A4194D6CE86CB6C14B30E91 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		476EF24A2418FEC4C3842A93A2824691 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		4E54AE7C1C80E4C8F49C25576988795A /* YALFoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBar.h; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h; sourceTree = "<group>"; };
+		4F86BB7A25A0366FD273E462C362EF10 /* FoldingTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-prefix.pch"; sourceTree = "<group>"; };
+		530436FCC5C3F81BC04819C461AD4508 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		53C80D50B460628BEFB7C670734FCE89 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		552262FDFC5098EB8120C13EB4E31EF7 /* Pods-tip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tip-dummy.m"; sourceTree = "<group>"; };
+		5680241C6BC3F15918E55A2E7A989A41 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		5A9C5620D763DA00DAE8EA666F541CC4 /* Pods-tip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C8E0635BB441BD3BF5B37BC5E10B550 /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+YALTabBarViewAnimations.h"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		5F585FB39A7FA3DECE2343A95ACE0E6F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		61C37BC984BD9ED77490A4B11C947097 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		64647B7BEB7FA2115BC15CF139E5DB92 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		659869290BC3CE9F76E80FEF9F3AC3A6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		68CAC519744EAFA25E2747C32328903B /* BLKFlexibleHeightBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLKFlexibleHeightBar.xcconfig; sourceTree = "<group>"; };
+		6A6114EFD8CA634F1354E40E316C51F2 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		6B369DE6D7F4EDE0420BC95B5C8983D8 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBarSubviewLayoutAttributes.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarSubviewLayoutAttributes.m; sourceTree = "<group>"; };
+		6C6BE501D2652E05E052B47EE08063F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFEF3BAB1ABD1B6D6979A571EEDD695 /* BLKFlexibleHeightBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLKFlexibleHeightBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5DBFD932E2D1C927257CCCBBE03B6E /* YALTabBarInteracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarInteracting.h; path = FoldingTabBar/Protocol/TabBarInteracting/YALTabBarInteracting.h; sourceTree = "<group>"; };
+		6FFCE03B0CBBCE08C520ADC25FD79473 /* FacebookStyleBarBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FacebookStyleBarBehaviorDefiner.m; path = BLKFlexibleHeightBar/FacebookStyleBarBehaviorDefiner.m; sourceTree = "<group>"; };
+		747EA0B09085D91969ACECDD530FC8F7 /* BLKDelegateSplitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKDelegateSplitter.h; path = BLKFlexibleHeightBar/BLKDelegateSplitter.h; sourceTree = "<group>"; };
+		74CAEB1D6C6720901C63F193913B0EEE /* YALTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarItem.h; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.h; sourceTree = "<group>"; };
+		7870F9932B3E5A3E20E5EB8C6103B47F /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		7A5ACE5C799E3CCA36841408324AE24E /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		7AE8D127829AC40F32A192B36591352F /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+TransactionWithAnimationsAndCompletion.m"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		7CF0FD192CA6969C60DEAF9B2243759A /* SquareCashStyleBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SquareCashStyleBehaviorDefiner.m; path = BLKFlexibleHeightBar/SquareCashStyleBehaviorDefiner.m; sourceTree = "<group>"; };
+		816F277D9AB9F08D3B1199B213C18571 /* Pods-tip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tip.release.xcconfig"; sourceTree = "<group>"; };
+		81BFCB08BD68B49854ECB72BCFDB3B45 /* YALSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALSpringAnimation.m; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m; sourceTree = "<group>"; };
+		82076CD5362779CBC75565DE537A8BA7 /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBarController.m; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		84F1BB547CAF5AE291911D06A52DA939 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		87F828E6CD772C83A4009F143BC8073B /* BLKFlexibleHeightBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBar.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBar.h; sourceTree = "<group>"; };
+		8B36B832D11C378C61AB9739B4034CC3 /* UIView+BLKFlexibleHeightBarSubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BLKFlexibleHeightBarSubview.h"; path = "BLKFlexibleHeightBar/UIView+BLKFlexibleHeightBarSubview.h"; sourceTree = "<group>"; };
+		8E275954F645EE0C6F91A9D42B5A725A /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		92B642BA0422E4F31564A0C2E0389874 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F0E0D895C6BB5F9655C3433FCE0B0C /* UIView+BLKFlexibleHeightBarSubview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BLKFlexibleHeightBarSubview.m"; path = "BLKFlexibleHeightBar/UIView+BLKFlexibleHeightBarSubview.m"; sourceTree = "<group>"; };
+		97FA67FC70416202FAA27D65D274ECF5 /* BLKFlexibleHeightBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLKFlexibleHeightBar-umbrella.h"; sourceTree = "<group>"; };
+		983E93ACD9229036542A6D384D940421 /* BLKFlexibleHeightBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBar.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBar.m; sourceTree = "<group>"; };
+		98430CCDC3BA4D503C1B0DEE9C27400D /* YALFoldingTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBar.m; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m; sourceTree = "<group>"; };
+		9D57101409F8CBE5B700EED2A4940313 /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBarController.h; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		9D5A3DFDC20C9DC325A46A8D0FBA32CE /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		9F1C36D2804819A09AF196229D32AC60 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		A1162169359A97EAA03641ADB0D49223 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		A281BA6C1471E58D7892A43788E3BAA3 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		A43DB4AA6CE4CC5140300D1B332A274E /* Pods-tip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tip.debug.xcconfig"; sourceTree = "<group>"; };
+		A7624145F7D4E0E56511F9BEF32CC72E /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALAnimatingTabBarConstants.m; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9F85CDC176B05E922658FBA01B92C0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCDA3E7192EB0F3BA37907217786953 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		B0549304EF98022EEFCA3337F7FF15AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38E38CFB9022F18512880419F90E6A2 /* YALTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTabBarItem.m; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.m; sourceTree = "<group>"; };
+		B5B08F6A77B86100E6D66ADA88FE6936 /* BLKFlexibleHeightBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLKFlexibleHeightBar-dummy.m"; sourceTree = "<group>"; };
+		B5F8DB372606DBE97D87439814D16554 /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+YALTabBarViewAnimations.m"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		B8028F121273A7D3023E66745B8A50A7 /* YALSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALSpringAnimation.h; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h; sourceTree = "<group>"; };
+		B92648EFE8246147B67B2D7A1EB88630 /* Pods-tip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tip.modulemap"; sourceTree = "<group>"; };
+		BB6E94998C11E96B6330C1187B86D6ED /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+TransactionWithAnimationsAndCompletion.h"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		BBDC3F0679570CDC481D5DF5F34AB0BA /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE5D83AA0FF8DECC6AE5B026786A396 /* FoldingTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-umbrella.h"; sourceTree = "<group>"; };
+		BF0BD06BA01ECF8BD3A7C06EDAAC9F7F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		C16574F51C9C6A17ADA7868D0236616B /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALAnimatingTabBarConstants.h; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		C275CD86A124CFA47CC825436BECB29F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C729E72B6900434A4D52A1B5911F9EA1 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CFD962A5E0D048AE3EAFA38416085EF6 /* FoldingTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoldingTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13361B5607C17C519298D71E26CA792 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		D3A28AA1398E123F6D32AAD0AFD524B9 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		D7F76625FCCE8CA7FB282C3165BCCB2A /* BLKFlexibleHeightBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLKFlexibleHeightBar-prefix.pch"; sourceTree = "<group>"; };
+		D8EF2124790E1C922CD3E6C3C82AC261 /* FoldingTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingTabBar-dummy.m"; sourceTree = "<group>"; };
+		DD1FFCAEE0A575872542735124A5DFC8 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		E1B3950DA952A13852489E4492E645BE /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		ED074FDDB117B6A0C690E62BEA845A22 /* BLKFlexibleHeightBarBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBarBehaviorDefiner.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarBehaviorDefiner.m; sourceTree = "<group>"; };
+		EEE37EB69393C6CFAC11D8F67075AD93 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		F0CA3FB714389875CA1FF000648FA0F7 /* Pods-tip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tip-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2A7DE0722185CD04D585C397E90C69B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AAD25BB5F057711636202A730DE5E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5B55238C7BC9A9DCAADA70A323785 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		FBE8D5F99C7049151A1F7BD920A861D1 /* BLKFlexibleHeightBarBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBarBehaviorDefiner.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarBehaviorDefiner.h; sourceTree = "<group>"; };
+		FE2D59916818A41E2960F65CAA1D1D77 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBarSubviewLayoutAttributes.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarSubviewLayoutAttributes.h; sourceTree = "<group>"; };
+		FE3168BFA99F9F706E7E1E7C03C736D2 /* BLKDelegateSplitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKDelegateSplitter.m; path = BLKFlexibleHeightBar/BLKDelegateSplitter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B515F35429A1654A3F074562DC5D626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB0D7D8A7F735A495CB6D1AF84DC405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9D10152A87C06141EAF3957F99E088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0A2A62035B9900A62126CCF69A9B17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF5ACE188263BF0ED96FC03889103B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150274FF78FFACD36305574BDC544B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B6904276D96AABE735278A581F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F33AE84F3EAE897A9CFC66FA5B998C /* Foundation.framework in Frameworks */,
+				15A07BC13D7BE762CA9792B5C9F97595 /* QuartzCore.framework in Frameworks */,
+				5FFDA3142014F88B93ADB3FDCF3546C0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0A9DBA3682433D98DB89C8CBFC7AC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FC95CE419DAD03B93ACA74C2AEC55 /* BLKFlexibleHeightBar.modulemap */,
+				68CAC519744EAFA25E2747C32328903B /* BLKFlexibleHeightBar.xcconfig */,
+				B5B08F6A77B86100E6D66ADA88FE6936 /* BLKFlexibleHeightBar-dummy.m */,
+				D7F76625FCCE8CA7FB282C3165BCCB2A /* BLKFlexibleHeightBar-prefix.pch */,
+				97FA67FC70416202FAA27D65D274ECF5 /* BLKFlexibleHeightBar-umbrella.h */,
+				6C6BE501D2652E05E052B47EE08063F7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BLKFlexibleHeightBar";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A50D607B44A1E51A86339A3B81715F9 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B9AF54429E9707E1683C276853078 /* Alamofire.swift */,
+				6A6114EFD8CA634F1354E40E316C51F2 /* Download.swift */,
+				EEE37EB69393C6CFAC11D8F67075AD93 /* Error.swift */,
+				A1162169359A97EAA03641ADB0D49223 /* Manager.swift */,
+				3CBCC29D150904E47ACC418C559C62BA /* MultipartFormData.swift */,
+				659869290BC3CE9F76E80FEF9F3AC3A6 /* NetworkReachabilityManager.swift */,
+				2F08B0CC331B732B6359C9A1EDA01CB5 /* Notifications.swift */,
+				C275CD86A124CFA47CC825436BECB29F /* ParameterEncoding.swift */,
+				2FD34191AA27B811CE960D09B4D2DC2D /* Request.swift */,
+				5680241C6BC3F15918E55A2E7A989A41 /* Response.swift */,
+				9F1C36D2804819A09AF196229D32AC60 /* ResponseSerialization.swift */,
+				84F1BB547CAF5AE291911D06A52DA939 /* Result.swift */,
+				30F1DCFFD8ED809A5090A12019990B4E /* ServerTrustPolicy.swift */,
+				7A5ACE5C799E3CCA36841408324AE24E /* Stream.swift */,
+				64647B7BEB7FA2115BC15CF139E5DB92 /* Timeline.swift */,
+				92B642BA0422E4F31564A0C2E0389874 /* Upload.swift */,
+				5F585FB39A7FA3DECE2343A95ACE0E6F /* Validation.swift */,
+				FD8873E7048A74264E41B31D3CFD366D /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		33AFCF3DD7707D5BB8F5EFB9C67BAA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F85CDC176B05E922658FBA01B92C0B /* Alamofire.framework */,
+				6EFEF3BAB1ABD1B6D6979A571EEDD695 /* BLKFlexibleHeightBar.framework */,
+				CFD962A5E0D048AE3EAFA38416085EF6 /* FoldingTabBar.framework */,
+				22C411E89902CA8C92FC5B0630F745A4 /* Pods_tip.framework */,
+				BBDC3F0679570CDC481D5DF5F34AB0BA /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E8C2F23D9ED479930B4799185D2D7A /* Pods-tip */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7DE0722185CD04D585C397E90C69B /* Info.plist */,
+				B92648EFE8246147B67B2D7A1EB88630 /* Pods-tip.modulemap */,
+				5A9C5620D763DA00DAE8EA666F541CC4 /* Pods-tip-acknowledgements.markdown */,
+				F0CA3FB714389875CA1FF000648FA0F7 /* Pods-tip-acknowledgements.plist */,
+				552262FDFC5098EB8120C13EB4E31EF7 /* Pods-tip-dummy.m */,
+				172BF95B4FF78B92C6B2D46625DC6C4C /* Pods-tip-frameworks.sh */,
+				0587BA1EB908D4EBF1C9EF04A30CE211 /* Pods-tip-resources.sh */,
+				057ED6F3D3830CA75B1431F1D890C040 /* Pods-tip-umbrella.h */,
+				A43DB4AA6CE4CC5140300D1B332A274E /* Pods-tip.debug.xcconfig */,
+				816F277D9AB9F08D3B1199B213C18571 /* Pods-tip.release.xcconfig */,
+			);
+			name = "Pods-tip";
+			path = "Target Support Files/Pods-tip";
+			sourceTree = "<group>";
+		};
+		501E51561F0D10AD35345074834F7C7D /* BLKFlexibleHeightBar */ = {
+			isa = PBXGroup;
+			children = (
+				747EA0B09085D91969ACECDD530FC8F7 /* BLKDelegateSplitter.h */,
+				FE3168BFA99F9F706E7E1E7C03C736D2 /* BLKDelegateSplitter.m */,
+				87F828E6CD772C83A4009F143BC8073B /* BLKFlexibleHeightBar.h */,
+				983E93ACD9229036542A6D384D940421 /* BLKFlexibleHeightBar.m */,
+				FBE8D5F99C7049151A1F7BD920A861D1 /* BLKFlexibleHeightBarBehaviorDefiner.h */,
+				ED074FDDB117B6A0C690E62BEA845A22 /* BLKFlexibleHeightBarBehaviorDefiner.m */,
+				FE2D59916818A41E2960F65CAA1D1D77 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */,
+				6B369DE6D7F4EDE0420BC95B5C8983D8 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */,
+				0BEE7FA759EB5AE2BF3EF55AD65F5F60 /* FacebookStyleBarBehaviorDefiner.h */,
+				6FFCE03B0CBBCE08C520ADC25FD79473 /* FacebookStyleBarBehaviorDefiner.m */,
+				05DFA17DB9D27B8564BB83E56C48B1FD /* SquareCashStyleBehaviorDefiner.h */,
+				7CF0FD192CA6969C60DEAF9B2243759A /* SquareCashStyleBehaviorDefiner.m */,
+				8B36B832D11C378C61AB9739B4034CC3 /* UIView+BLKFlexibleHeightBarSubview.h */,
+				95F0E0D895C6BB5F9655C3433FCE0B0C /* UIView+BLKFlexibleHeightBarSubview.m */,
+				0E0A9DBA3682433D98DB89C8CBFC7AC9 /* Support Files */,
+			);
+			path = BLKFlexibleHeightBar;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A662847C56FBD0A915566A366090C793 /* Pods */,
+				33AFCF3DD7707D5BB8F5EFB9C67BAA0A /* Products */,
+				EAB926B7BD92A6D21E842508CD0C74DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A662847C56FBD0A915566A366090C793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A50D607B44A1E51A86339A3B81715F9 /* Alamofire */,
+				501E51561F0D10AD35345074834F7C7D /* BLKFlexibleHeightBar */,
+				D42A4E0CD5A47BDECC00EA5D8229AC92 /* FoldingTabBar */,
+				DB7194543A17CB84D98B0A86E12DD833 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C436F326382614DD92C085068639CDC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				049CDFC91D77D8A1573C1DDD37ACC308 /* FoldingTabBar.modulemap */,
+				2AE81CC8DBAA816FCAE1D03C6445080C /* FoldingTabBar.xcconfig */,
+				D8EF2124790E1C922CD3E6C3C82AC261 /* FoldingTabBar-dummy.m */,
+				4F86BB7A25A0366FD273E462C362EF10 /* FoldingTabBar-prefix.pch */,
+				BCE5D83AA0FF8DECC6AE5B026786A396 /* FoldingTabBar-umbrella.h */,
+				F4AAD25BB5F057711636202A730DE5E7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingTabBar";
+			sourceTree = "<group>";
+		};
+		D42A4E0CD5A47BDECC00EA5D8229AC92 /* FoldingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E0635BB441BD3BF5B37BC5E10B550 /* CAAnimation+YALTabBarViewAnimations.h */,
+				B5F8DB372606DBE97D87439814D16554 /* CAAnimation+YALTabBarViewAnimations.m */,
+				BB6E94998C11E96B6330C1187B86D6ED /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+				7AE8D127829AC40F32A192B36591352F /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				C16574F51C9C6A17ADA7868D0236616B /* YALAnimatingTabBarConstants.h */,
+				A7624145F7D4E0E56511F9BEF32CC72E /* YALAnimatingTabBarConstants.m */,
+				4E54AE7C1C80E4C8F49C25576988795A /* YALFoldingTabBar.h */,
+				98430CCDC3BA4D503C1B0DEE9C27400D /* YALFoldingTabBar.m */,
+				9D57101409F8CBE5B700EED2A4940313 /* YALFoldingTabBarController.h */,
+				82076CD5362779CBC75565DE537A8BA7 /* YALFoldingTabBarController.m */,
+				B8028F121273A7D3023E66745B8A50A7 /* YALSpringAnimation.h */,
+				81BFCB08BD68B49854ECB72BCFDB3B45 /* YALSpringAnimation.m */,
+				6F5DBFD932E2D1C927257CCCBBE03B6E /* YALTabBarInteracting.h */,
+				74CAEB1D6C6720901C63F193913B0EEE /* YALTabBarItem.h */,
+				B38E38CFB9022F18512880419F90E6A2 /* YALTabBarItem.m */,
+				C436F326382614DD92C085068639CDC8 /* Support Files */,
+			);
+			path = FoldingTabBar;
+			sourceTree = "<group>";
+		};
+		DB7194543A17CB84D98B0A86E12DD833 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				7870F9932B3E5A3E20E5EB8C6103B47F /* AkiraTextField.swift */,
+				FAA5B55238C7BC9A9DCAADA70A323785 /* HoshiTextField.swift */,
+				BF0BD06BA01ECF8BD3A7C06EDAAC9F7F /* IsaoTextField.swift */,
+				53C80D50B460628BEFB7C670734FCE89 /* JiroTextField.swift */,
+				D3A28AA1398E123F6D32AAD0AFD524B9 /* KaedeTextField.swift */,
+				61C37BC984BD9ED77490A4B11C947097 /* MadokaTextField.swift */,
+				E1B3950DA952A13852489E4492E645BE /* MinoruTextField.swift */,
+				8E275954F645EE0C6F91A9D42B5A725A /* TextFieldsEffects.swift */,
+				ACCDA3E7192EB0F3BA37907217786953 /* YokoTextField.swift */,
+				A281BA6C1471E58D7892A43788E3BAA3 /* YoshikoTextField.swift */,
+				F688ACB586D090F63B1507B1944FC983 /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAB926B7BD92A6D21E842508CD0C74DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35E8C2F23D9ED479930B4799185D2D7A /* Pods-tip */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F688ACB586D090F63B1507B1944FC983 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				385F60CF8026C1ADDCBDB823C3F3B8C5 /* Info.plist */,
+				3F87A2EF5A4194D6CE86CB6C14B30E91 /* TextFieldEffects.modulemap */,
+				DD1FFCAEE0A575872542735124A5DFC8 /* TextFieldEffects.xcconfig */,
+				476EF24A2418FEC4C3842A93A2824691 /* TextFieldEffects-dummy.m */,
+				157C75BA61BA3F0D6977175544A15EA1 /* TextFieldEffects-prefix.pch */,
+				9D5A3DFDC20C9DC325A46A8D0FBA32CE /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		FD8873E7048A74264E41B31D3CFD366D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13361B5607C17C519298D71E26CA792 /* Alamofire.modulemap */,
+				C729E72B6900434A4D52A1B5911F9EA1 /* Alamofire.xcconfig */,
+				0774386B581CF80735D75572A38AAF85 /* Alamofire-dummy.m */,
+				530436FCC5C3F81BC04819C461AD4508 /* Alamofire-prefix.pch */,
+				0B9E4803872E053978425D9A042BBB31 /* Alamofire-umbrella.h */,
+				B0549304EF98022EEFCA3337F7FF15AA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEDDD15CB9E6EF7BE4A62410A3F06782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A660527F787EC1FBF7D921AF153C0E22 /* Pods-tip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD15377B1F7AD39C0AA15ECC69CFEC1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6407C408FDEAB642A87FB3182F20A52 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAE6855DE85C44EF14593D60F1ADA15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF75C9D058ED100B0A7F4C3CC8ED9B80 /* BLKDelegateSplitter.h in Headers */,
+				90D9E156AF5D9F8F149D3A30F15AF014 /* BLKFlexibleHeightBar-umbrella.h in Headers */,
+				136CDF804C6DB1F93B6D97E9476DED81 /* BLKFlexibleHeightBar.h in Headers */,
+				9FD3A8D76E9CFB7B87BFF6CC38818355 /* BLKFlexibleHeightBarBehaviorDefiner.h in Headers */,
+				183E20A67C4407B12C9D8C7EA98F4C61 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h in Headers */,
+				0A927F5EA61B6C07404397C96F1B7DFB /* FacebookStyleBarBehaviorDefiner.h in Headers */,
+				4121C3C8ED8E4C322EE96541B2A7AF2A /* SquareCashStyleBehaviorDefiner.h in Headers */,
+				C351AAED65C08058A47640D53375FA40 /* UIView+BLKFlexibleHeightBarSubview.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E551D92398799D43309CEE9B1D557 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
+				7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
+				CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */,
+				C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */,
+				D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */,
+				FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */,
+				06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */,
+				B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */,
+				C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */;
+			buildPhases = (
+				4128CDA34F3112B2109187153E4F1197 /* Sources */,
+				AE92B6904276D96AABE735278A581F62 /* Frameworks */,
+				FE1E551D92398799D43309CEE9B1D557 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingTabBar;
+			productName = FoldingTabBar;
+			productReference = CFD962A5E0D048AE3EAFA38416085EF6 /* FoldingTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EE2093432BD60CBE944C755B6C7A8B4 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168D353C15D554E1C0323F420E1CAD61 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				2275291E17D9F97CB8C11E0B273DD5D7 /* Sources */,
+				64CF5ACE188263BF0ED96FC03889103B /* Frameworks */,
+				CD15377B1F7AD39C0AA15ECC69CFEC1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = BBDC3F0679570CDC481D5DF5F34AB0BA /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = A9F85CDC176B05E922658FBA01B92C0B /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AAA83A0B19E9AB585A6FFE3AAF1D304 /* BLKFlexibleHeightBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD10D22F914F310C572A932FCCD1365D /* Build configuration list for PBXNativeTarget "BLKFlexibleHeightBar" */;
+			buildPhases = (
+				E73CF6F142DC1028D517807586D9B5E0 /* Sources */,
+				3B515F35429A1654A3F074562DC5D626 /* Frameworks */,
+				DAAE6855DE85C44EF14593D60F1ADA15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLKFlexibleHeightBar;
+			productName = BLKFlexibleHeightBar;
+			productReference = 6EFEF3BAB1ABD1B6D6979A571EEDD695 /* BLKFlexibleHeightBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A924A6C0E9279030EB62FAE14324CED /* Pods-tip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF147A3C22E5847913ED969F74551C28 /* Build configuration list for PBXNativeTarget "Pods-tip" */;
+			buildPhases = (
+				A23B21D1D399942791C2263D4DFCD04E /* Sources */,
+				5F9D10152A87C06141EAF3957F99E088 /* Frameworks */,
+				BEDDD15CB9E6EF7BE4A62410A3F06782 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E58E281E41F03C9E99F450DE1FFA712 /* PBXTargetDependency */,
+				730F083225BEB83A718AAAFCE33EA9F3 /* PBXTargetDependency */,
+				DE86C0F336D421AC8CBF71811AD9E6DA /* PBXTargetDependency */,
+				BED6B8A262A2C5F21D76D06E7EBC4F5F /* PBXTargetDependency */,
+			);
+			name = "Pods-tip";
+			productName = "Pods-tip";
+			productReference = 22C411E89902CA8C92FC5B0630F745A4 /* Pods_tip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 33AFCF3DD7707D5BB8F5EFB9C67BAA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				7AAA83A0B19E9AB585A6FFE3AAF1D304 /* BLKFlexibleHeightBar */,
+				0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */,
+				8A924A6C0E9279030EB62FAE14324CED /* Pods-tip */,
+				2EE2093432BD60CBE944C755B6C7A8B4 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2275291E17D9F97CB8C11E0B273DD5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623D483F8F56568A87EB9DAAEEAEA99D /* AkiraTextField.swift in Sources */,
+				E1C2D17104627BFFAEC35C2EA2192330 /* HoshiTextField.swift in Sources */,
+				3E1AB398DBDF11B9A2DB7B878F3B5E0C /* IsaoTextField.swift in Sources */,
+				1A9C7009D8209610E07710A17AF91DBB /* JiroTextField.swift in Sources */,
+				E796034CE7C4A9CA8589A4A5D61E39E7 /* KaedeTextField.swift in Sources */,
+				71E116BA3467C1A33F3D38F2D13F06DF /* MadokaTextField.swift in Sources */,
+				B03892E5193E2B4CA8AD189407D0A1DB /* MinoruTextField.swift in Sources */,
+				997420AC5307AF62C8A6B1F7DA9F9654 /* TextFieldEffects-dummy.m in Sources */,
+				EC24C06A5570926378885E7E5D228FB4 /* TextFieldsEffects.swift in Sources */,
+				8332B33C2C52FD239C4AA643679D3352 /* YokoTextField.swift in Sources */,
+				23357E73A039DE83A7F8F133099E0556 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4128CDA34F3112B2109187153E4F1197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */,
+				00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */,
+				5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */,
+				375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */,
+				64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */,
+				25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
+				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
+				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
+				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
+				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
+				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
+				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
+				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
+				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
+				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
+				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
+				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
+				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
+				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
+				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
+				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
+				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23B21D1D399942791C2263D4DFCD04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88677457A52C3438B230D215D8A1DCDF /* Pods-tip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73CF6F142DC1028D517807586D9B5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BA74C541668C2C10AFACABF15F13D /* BLKDelegateSplitter.m in Sources */,
+				23AFA54C246EF4AC477D1319B5AEFD02 /* BLKFlexibleHeightBar-dummy.m in Sources */,
+				CC206997EED453E0EEBA757ED975CEFA /* BLKFlexibleHeightBar.m in Sources */,
+				CF5C422E5C591F100805AFABB461D26D /* BLKFlexibleHeightBarBehaviorDefiner.m in Sources */,
+				9EA6B707658F73F48A164401C6854159 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
+				D4338675C06ADF78F593A5AD0C72C697 /* FacebookStyleBarBehaviorDefiner.m in Sources */,
+				A02814CA6C93B58F5DF0E77F0B7E1DDB /* SquareCashStyleBehaviorDefiner.m in Sources */,
+				658AE8E7414CD9F9217DA73D095A0FA4 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E58E281E41F03C9E99F450DE1FFA712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 391424983FF2E13982E303D9FB3014D8 /* PBXContainerItemProxy */;
+		};
+		730F083225BEB83A718AAAFCE33EA9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLKFlexibleHeightBar;
+			target = 7AAA83A0B19E9AB585A6FFE3AAF1D304 /* BLKFlexibleHeightBar */;
+			targetProxy = B67AC37B041F88DCC4F54F1B148A547A /* PBXContainerItemProxy */;
+		};
+		BED6B8A262A2C5F21D76D06E7EBC4F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 2EE2093432BD60CBE944C755B6C7A8B4 /* TextFieldEffects */;
+			targetProxy = 85760C277FCB8B3CB180625F48CB972A /* PBXContainerItemProxy */;
+		};
+		DE86C0F336D421AC8CBF71811AD9E6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingTabBar;
+			target = 0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */;
+			targetProxy = C671F898572F562AD3D9DE5E28FF2994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C7146E028B55D65E0DB0B67E959189D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1FFCAEE0A575872542735124A5DFC8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D85666B66A4B2E064020AFC3310C503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816F277D9AB9F08D3B1199B213C18571 /* Pods-tip.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tip/Pods-tip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		328CFAC18ECE4DDD7DB0F3B9E90A60BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CAC519744EAFA25E2747C32328903B /* BLKFlexibleHeightBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLKFlexibleHeightBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLKFlexibleHeightBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729E72B6900434A4D52A1B5911F9EA1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		387063CD11E12521BC2BB866110F0D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CAC519744EAFA25E2747C32328903B /* BLKFlexibleHeightBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLKFlexibleHeightBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLKFlexibleHeightBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729E72B6900434A4D52A1B5911F9EA1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79B74B4028D363C52A7313BA1DEE40B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE81CC8DBAA816FCAE1D03C6445080C /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4481E3DA7C5DADC66F7BAB919F1478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43DB4AA6CE4CC5140300D1B332A274E /* Pods-tip.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tip/Pods-tip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E09637E753084AD82510ED061C392281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1FFCAEE0A575872542735124A5DFC8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8E37485A4F79D78FA93135511C73A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE81CC8DBAA816FCAE1D03C6445080C /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168D353C15D554E1C0323F420E1CAD61 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7146E028B55D65E0DB0B67E959189D /* Debug */,
+				E09637E753084AD82510ED061C392281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B74B4028D363C52A7313BA1DEE40B5 /* Debug */,
+				E8E37485A4F79D78FA93135511C73A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75218111E718FACE36F771E8ABECDB62 /* Debug */,
+				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF147A3C22E5847913ED969F74551C28 /* Build configuration list for PBXNativeTarget "Pods-tip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4481E3DA7C5DADC66F7BAB919F1478 /* Debug */,
+				2D85666B66A4B2E064020AFC3310C503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD10D22F914F310C572A932FCCD1365D /* Build configuration list for PBXNativeTarget "BLKFlexibleHeightBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387063CD11E12521BC2BB866110F0D4A /* Debug */,
+				328CFAC18ECE4DDD7DB0F3B9E90A60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

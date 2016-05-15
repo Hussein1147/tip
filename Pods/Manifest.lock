@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.2.1)
+  - BLKFlexibleHeightBar (1.0.2)
+  - FoldingTabBar (1.0.2)
+  - TextFieldEffects (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - BLKFlexibleHeightBar
+  - FoldingTabBar (~> 1.0.2)
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  BLKFlexibleHeightBar: b27572a69633d8e33f1f2bbc486b04d8e86f742d
+  FoldingTabBar: 79df76dfd5a84c0a369beaa378a31c07aa53b6b2
+  TextFieldEffects: a1a78efeb93b65c611ad287b28a068c9a4a5f5b4
+
+PODFILE CHECKSUM: 0a10deca151489272c7b35daf03efff1739adc94
+
+COCOAPODS: 1.0.0
